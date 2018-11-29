@@ -107,7 +107,7 @@ plt.plot(np.arange(1, len(scores)+1), scores, label='scores')
 plt.plot(np.arange(1, len(mean_scores)+1), mean_scores, label='running mean over 100 episodes')
 plt.ylabel('Score')
 plt.xlabel('Episode #')
-plt.legend(loc='lower right')
+plt.legend(loc='upper left')
 plt.grid()
 plt.savefig('training_scores.png', format='png', dpi=1000)
 plt.show()
@@ -134,6 +134,6 @@ while True:
     states = next_states                               # roll over states to next time step
     if np.any(dones):                                  # exit loop if episode finished
         break
-print('Score (max over agents) from episode {}: {}'.format(i, np.max(scores)))
+print('Score (max over agents): {}'.format(np.max(scores)))
 
 env.close()
