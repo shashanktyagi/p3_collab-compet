@@ -32,7 +32,7 @@ The figure below shows average rewards per episode as the agent is being trained
 ![Rewards per episode][image2]
 
 ### 4. Future Work
-We trained a the environment using DDPG algorithm. In future we can explore other algorithms like MADDPG. We can also tune the hyperparameters further to solve the environment quickly. 
+We trained a the environment using DDPG algorithm. In future we can explore other algorithms like MADDPG. We can also tune the hyperparameters further to solve the environment in fewer number of episodes. 
 
 
   
