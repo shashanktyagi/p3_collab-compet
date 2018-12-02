@@ -46,7 +46,7 @@ source drlnd/bin/activate
 ```
 4. Install all the dependencies
 ```
-cd p2_continuous-control/
+cd p3_collab-compet/
 pip3 install python/
 ```
 Note that the setup assumes that Tkinter is installed for python3. If not, install using the following
